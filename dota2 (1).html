@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dota 2 Fan Page</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+      }
+
+      body {
+          background-color: #f2f2f2;
+          color: #333;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-height: 100vh;
+          padding: 0 20px;
+      }
+
+      header {
+          background-color: #1e1e1e;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+          width: 100%;
+      }
+
+      nav {
+          background-color: #444;
+          width: 100%;
+      }
+
+      nav ul {
+          list-style: none;
+          display: flex;
+          justify-content: center;
+          padding: 10px 0;
+      }
+
+      nav ul li {
+          margin: 0 20px;
+      }
+
+      nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: 500;
+          transition: color 0.3s;
+      }
+
+      nav ul li a:hover {
+          color: #ddd;
+      }
+
+      section {
+          padding: 40px 0;
+          width: 100%;
+      }
+
+      .hero {
+          display: flex;
+          align-items: center;
+          margin-bottom: 40px;
+          flex-wrap: wrap;
+          background-color: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          padding: 20px;
+      }
+
+      .hero img {
+          width: 150px;
+          height: 150px;
+          object-fit: cover;
+          border-radius: 8px;
+          margin-right: 20px;
+      }
+
+      .hero div {
+          flex: 1;
+      }
+
+      .hero h3 {
+          margin-top: 0;
+      }
+
+      .hero p {
+          text-align: justify;
+          color: #555;
+      }
+
+      .about {
+          text-align: justify;
+      }
+
+      .about h2 {
+          margin-bottom: 20px;
+      }
+
+      .about p {
+          line-height: 1.6;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background: #b69a9a;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 100vh;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 300px;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #ffffff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+p {
+
+    font-family: system-ui;
+    color: black;
+    font-size: 20px;
+    line-height: 2.0;
+    padding: 20xp;
+}
+  </style>
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Dota 2 Fan Page</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#heroes">Heroes</a></li>
+            <!-- Добавьте другие ссылки на разделы, например, Items, Tournaments, Community -->
+        </ul>
+    </nav>
+    <section id="heroes">
+        <div class="hero">
+            <img src="https://w0.peakpx.com/wallpaper/490/410/HD-wallpaper-shadow-fiend-shadow-fiend-dota-2.jpg" alt="Shadow Fiend">
+            <div>
+                <h3>Shadow Fiend</h3>
+                <p>Shadow Fiend - становится сильнее с каждой полученной душой убитого им существа. Каждое убийство, каждое точное попадание опустошающими чарами приближает смертоносный удар энергии выпущенных на волю душ.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/crystal_maiden_full.png" alt="Crystal Maiden">
+            <div>
+                <h3>Crystal Maiden</h3>
+                <p>Crystal Maiden - это герой дальнего боя, который отлично поддерживает свою команду мощными заклинаниями. Она может замораживать противников на месте и обеспечивать восстановление маны своим союзникам.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/juggernaut_full.png" alt="Juggernaut">
+            <div>
+                <h3>Juggernaut</h3>
+                <p>Juggernaut - это герой, который владеет острым мечом и способен наносить огромные повреждения в ближнем бою. Его умение вращаться с мечом позволяет ему быстро наносить урон множественным целям.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/pudge_full.png" alt="Pudge">
+            <div>
+                <h3>Pudge</h3>
+                <p>Pudge - это герой, который предпочитает сражаться в ближнем бою и наносить огромный урон с помощью своего топора. Его основной прием - это мощный удар по всем врагам вокруг него.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/invoker_full.png" alt="Invoker">
+            <div>
+                <h3>Invoker</h3>
+                <p>Invoker - это герой, который владеет могущественными магическими заклинаниями и способен призывать метеоры, создавать ледяные стены и контролировать погоду. Его сложность в том, что он может иметь до 14 различных заклинаний в своем арсенале.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/phantom_assassin_full.png" alt="Phantom Assassin">
+            <div>
+                <h3>Phantom Assassin</h3>
+                <p>Phantom Assassin - это герой-убийца, который способен наносить огромные уроны в ближнем бою. Она обладает способностью скрывать свою присутствие, что делает ее опасной для врагов.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/earthshaker_full.png" alt="Earthshaker">
+            <div>
+                <h3>Earthshaker</h3>
+                <p>Earthshaker - это герой, который владеет способностью вызывать землетрясения и контролировать противников. Его основное оружие - это могущественный удар, который может нанести урон множественным целям.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/faceless_void_full.png" alt="Faceless Void">
+            <div>
+                <h3>Faceless Void</h3>
+                <p>Faceless Void - это герой, который владеет способностью управлять временем и перемещаться во времени. Его основная атака - это прыжок в прошлое, который позволяет ему избежать урона и атаковать врагов с неожиданной стороны.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://api.cybersportscore.com/media/news/n46230.jpeg" alt="Ogre Magi">
+            <div>
+                <h3>Ogre Magi</h3>
+                <p>Ogre0 - MagiБлагодаря возможности многократно приумножить эффект каждого своего заклинания и толике удачи Ogre Magi способен обратить врагов в пепел или усилить союзников. Но, разумеется, полагаться лишь на удачу — дело неблагодарное</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/axe_full.png" alt="Axe">
+            <div>
+                <h3>Axe</h3>
+                <p>Axe - это герой, который предпочитает сражаться в ближнем бою и наносить огромный урон с помощью своего топора. Его основной прием - это мощный удар по всем врагам вокруг него.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/luna_full.png" alt="Luna">
+            <div>
+                <h3>Luna</h3>
+                <p>Luna - это герой, который способен наносить огромный урон врагам с помощью своего меча и луны. Ее основной прием - это мощный удар, который поражает всех врагов вокруг нее.</p>
+            </div>
+        </div>
+        <div class="hero">
+            <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/heroes/legion_commander_full.png" alt="Legion Commander">
+            <div>
+                <h3>Legion Commander</h3>
+                <p>Legion Commander - это герой, который владеет силой и храбростью. Он способен сражаться с множеством врагов одновременно и уничтожать их с помощью своего меча и своей армии.</p>
+            </div>
+        </div>
+        <!-- Добавьте других героев по аналогии -->
+    </section>
+    <section class="hero">
+        <h2 style="text-align: center;">About Dota 2</h2>
+        <p>Dota 2 - это многопользовательская онлайн-игра в жанре MOBA (многопользовательская онлайн боевая арена), разработанная и выпущенная компанией Valve Corporation. Игра является продолжением популярной карты для Warcraft III: Reign of Chaos и его дополнения The Frozen Throne, известной как Defense of the Ancients или просто Dota.
+        В Dota 2 две команды, называемые Radiant и Dire, сражаются друг с другом, чтобы уничтожить вражеский Ancient - мощную структуру в основании вражеской базы. Каждая команда играет за один из двух Ancient'ов, находящихся в противоположных углах карты.
+        Игроки выбирают героев из обширного списка, каждый из которых обладает уникальными способностями и ролями в команде. Стратегия, коммуникация и синхронизация игры в команде играют важную роль в успехе в Dota 2.</p>
+    </section>
+    
+    <!-- Добавьте другие разделы с описанием и картинками -->
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/DotaUkraine/">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://x.com/dota2">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/dota2/">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+ 
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </center>
+</body>
+</html>
